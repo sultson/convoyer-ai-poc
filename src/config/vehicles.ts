@@ -239,6 +239,21 @@ export const vehicles = [
     year: 1987,
     description: "Armored Personnel Carrier (APC)",
     imageUrl: "/armor/imgs/sml/btr80_7.jpg",
+    attributes: [
+        {
+          "label": "14.5mm KPVT Anti-Aircraft (AA) Heavy Machine Gun (HMG)",
+          "type": "anti-aircraft weapon"
+        },
+        {
+          "label": "7.62mm PKT General Purpose Coaxial Machine Gun",
+          "type": "coaxial machine gun"
+        },
+        {
+          "label": "Smoke Grenade Dischargers",
+          "type": "grenade launcher accessory"
+        }
+      ]
+      
   },
   {
     armorId: 51,
